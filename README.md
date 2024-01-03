@@ -4,11 +4,11 @@
 <h1 align="center">📁 Alx Interview 💥</h1>
 
 ## About
-This repository consists of ALX Interview projects done with [ALX Africa](https://www.alxafrica.com/) Full stack Software Engineering course in partnership with [Holberton School](https://www.holbertonschool.com/) by [Elysée NIYIBIZI](https://github.com/elyse502).
+This repository consists of Solutions to various interview type questions done with [ALX Africa](https://www.alxafrica.com/) Full stack Software Engineering course in partnership with [Holberton School](https://www.holbertonschool.com/) by [Elysée NIYIBIZI](https://github.com/elyse502).
 
 ---
 
-- [0x00](./0x00-pascal_triangle) : First Interview Project
+- [0x00](./0x00-pascal_triangle) : First Interview Project Solution.
 ## Access ℹ️
 You can access everything in here by [forking](https://docs.github.com/en/get-started/quickstart/fork-a-repo) and then [cloning](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) this repository.
 
