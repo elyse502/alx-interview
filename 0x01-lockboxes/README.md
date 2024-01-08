@@ -47,39 +47,43 @@ True
 False
 carrie@ubuntu:~/0x01-lockboxes$
 ```
+---
+# REFERENCE 📚
+## CODE IMPLEMENTATION
+```groovy
+def canUnlockAll(boxes):
+    """
+     a method that determines if all the boxes can be opened.
 
+    :param boxes:
+    :return: True or False
+    """
+    if not boxes or type(boxes) is not list:
+        return False
 
+    unlocked = [0]
+    for n in unlocked:
+        for key in boxes[n]:
+            if key not in unlocked and key < len(boxes):
+                unlocked.append(key)
+    if len(unlocked) == len(boxes):
+        return True
+    return False
+```
+## CODE EXPLANATION
+```groovy
+The canUnlockAll function takes a list of lists (boxes) as input.
+Each inner list represents a box and contains the indices of other boxes that can be unlocked using their keys.
+The function uses a depth-first search algorithm to traverse the boxes and determine if all of them can be opened.
 
+In the provided example, the first box is initially unlocked, and its key opens the second box.
+The second box's key opens the third box, and so on.
+Since all the boxes can be opened, the output is True.
 
+In the second example, the keys in the boxes form a loop,
+allowing access to all the boxes. Hence, the output is True.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+In the third example, there is no way to open the fifth box because it doesn't have any keys.
+Therefore, the output is False.
+```
 
