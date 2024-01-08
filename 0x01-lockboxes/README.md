@@ -48,8 +48,9 @@ False
 carrie@ubuntu:~/0x01-lockboxes$
 ```
 ---
+
 # REFERENCE 📚
-## CODE IMPLEMENTATION
+## CODE IMPLEMENTATION 💻
 ```groovy
 def canUnlockAll(boxes):
     """
@@ -70,7 +71,7 @@ def canUnlockAll(boxes):
         return True
     return False
 ```
-## CODE EXPLANATION
+## CODE EXPLANATION ✍️
 ```groovy
 The canUnlockAll function takes a list of lists (boxes) as input.
 Each inner list represents a box and contains the indices of other boxes that can be unlocked using their keys.
@@ -86,4 +87,3 @@ allowing access to all the boxes. Hence, the output is True.
 In the third example, there is no way to open the fifth box because it doesn't have any keys.
 Therefore, the output is False.
 ```
-
