@@ -130,7 +130,20 @@ def canUnlockAll(boxes):
 
 2. Second one
 ```groovy
-total_boxes = len(boxes)
+#!/usr/bin/python3
+"""
+Module 0-lockboxes
+"""
+
+
+def canUnlockAll(boxes):
+    """
+    You have n number of locked boxes in front of you.
+    Each box is numbered sequentially from 0 to n - 1,
+    and each box may contain keys to the other boxes.
+    Determine if all the boxes can be opened.
+    """
+    total_boxes = len(boxes)
     setofkeys = [0]
     counter = 0
     index = 0
