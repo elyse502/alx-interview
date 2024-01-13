@@ -89,6 +89,7 @@ Therefore, the output is False.
 ```
 
 # Other Solution 📚
+1. First one
 ```groovy
 #!/usr/bin/python3
 '''
@@ -125,4 +126,22 @@ def canUnlockAll(boxes):
                 return False
         return True
     return False
+```
+
+2. Second one
+```groovy
+total_boxes = len(boxes)
+    setofkeys = [0]
+    counter = 0
+    index = 0
+
+    while index < len(setofkeys):
+        setkey = setofkeys[index]
+        for key in boxes[setkey]:
+            if 0 < key < total_boxes and key not in setofkeys:
+                setofkeys.append(key)
+                counter += 1
+        index += 1
+
+    return counter == total_boxes - 1
 ```
