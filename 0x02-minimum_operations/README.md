@@ -47,6 +47,8 @@ Min number of operations to reach 12 characters: 7
 carrie@ubuntu:~/0x02-minoperations$
 ```
 
+---
+
 # Reference 📚
 For those who have been challenged by the task minimum operations.
 
