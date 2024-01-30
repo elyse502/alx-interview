@@ -17,10 +17,11 @@ integer.
 """
 
 
-def validUTF8_v1(data):
-    """
-    Determines if a given data set
-    represents a valid UTF-8 encoding
+def validUTF8(data):
+    """_summary_
+
+    Args:
+            data (list[int]): a list of integers
     """
     number_bytes = 0
 
