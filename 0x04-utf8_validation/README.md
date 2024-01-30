@@ -1,4 +1,5 @@
 # 0x04. UTF-8 Validation
+
 # Resources🏗️
 ### Read or watch:
 * [UTF-8](https://en.wikipedia.org/wiki/UTF-8)
@@ -49,7 +50,6 @@ True
 False
 carrie@ubuntu:~/0x04-utf8_validation$
 ```
-
 
 
 
