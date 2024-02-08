@@ -43,6 +43,36 @@ julien@ubuntu:~/0x08. N Queens$ ./0-nqueens.py 6
 julien@ubuntu:~/0x08. N Queens$
 ```
 
+---
+
+# REFERENCE 📚
+## CODE IMPLEMENTATION 💻
+Install pep8 1.7 :
+```groovy
+pip install pep8==1.7.0
+```
+
+Then do : 
+```groovy
+pep8 0-nqueens.py
+```
+
+you will see some `pep8` error try fix them, u can use **chatgpt** to suggest fix
+
+![image](https://github.com/elyse502/alx-interview/assets/125453474/5211b9c4-20a2-4f67-aa93-e7c596daf9f3)
+
+![image (1)](https://github.com/elyse502/alx-interview/assets/125453474/f3e81b6a-dd3b-462e-b80b-a62922bac690)
+
+After fixing them u should be good 👌
+
+
+
+
+
+
+
+
+
 
 
 
