@@ -17,12 +17,14 @@
 $ curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 $ sudo apt-get install -y nodejs
 ```
-Install semi-standard
+**Install semi-standard**
+
 [Documentation](https://github.com/standard/semistandard)
 ```groovy
 $ sudo npm install semistandard --global
 ```
 **Install `request` module and use it**
+
 [Documentation](https://github.com/request/request)
 ```groovy
 $ sudo npm install request --global
@@ -61,8 +63,6 @@ Nien Nunb
 Bib Fortuna
 alexa@ubuntu:~/0x06$
 ```
-
-
 
 
 
