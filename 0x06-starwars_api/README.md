@@ -67,9 +67,9 @@ alexa@ubuntu:~/0x06$
 <div align="center">
 
 # Reference 📚
-</div>
 
-# Hello @Cohort 13 👋🏽 - Sometimes we do laugh too, with the Star Wars API project! 👇🏽 
+# Hello @Cohort 13 👋🏽 - Sometimes we do laugh too, with the `Star Wars API` project! 👇🏽
+</div>
 
 🎬 **Ignite Your Fan Projects**: Dive into the Star Wars galaxy with this script! Whether you're analyzing your favorite characters, hosting trivia showdowns, or crafting epic character profiles, the possibilities are as endless as the stars in the sky.
 
