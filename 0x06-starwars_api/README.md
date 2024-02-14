@@ -64,6 +64,21 @@ Bib Fortuna
 alexa@ubuntu:~/0x06$
 ```
 
+<div align="center">
+
+# Reference 📚
+</div>
+
+# Hello @Cohort 13 👋🏽 - Sometimes we do laugh too, with the Star Wars API project! 👇🏽 
+
+🎬 **Ignite Your Fan Projects**: Dive into the Star Wars galaxy with this script! Whether you're analyzing your favorite characters, hosting trivia showdowns, or crafting epic character profiles, the possibilities are as endless as the stars in the sky.
+
+🌐 **Master Data Integration**: Elevate your web development and data analysis skills by learning how to access and process data from APIs. With this script, you'll unlock the power of data manipulation and unleash your creativity in the digital realm.
+
+🚀 **Embark on Your Learning Journey**: Take a leap into the world of APIs! This script provides hands-on practice with essential programming skills like making HTTP requests and parsing JSON data, paving the way for your future coding adventures.
+
+
+
 
 
 
