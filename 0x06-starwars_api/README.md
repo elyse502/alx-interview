@@ -77,8 +77,28 @@ alexa@ubuntu:~/0x06$
 
 🚀 **Embark on Your Learning Journey**: Take a leap into the world of APIs! This script provides hands-on practice with essential programming skills like making HTTP requests and parsing JSON data, paving the way for your future coding adventures.
 
+---
 
+<div align="center">
 
+# 📓 About the given Task above 📔
+</div>
+
+## Encountering such Error bellow 🐛
+The error message `"Cannot find module 'request'"` indicates that the **`'request'`** module is not found when attempting to run the script **0-starwars_characters.js.** This could happen due to several reasons:
+
+**1. Missing Installation:** Although you installed the 'request' module globally using sudo npm install request --global, it seems that the script 0-starwars_characters.js is unable to find the module. This might happen if the script is not in the same environment where the global modules are installed.
+
+**2. Environment Configuration:** Sometimes, the global npm modules might not be available in the current environment or PATH. Ensure that the NODE_PATH environment variable is properly set to include the directory where global npm modules are installed.
+
+## To troubleshoot and fix the issue, you can try the following steps:
+
+* Verify that the 'request' module is indeed installed globally by running `npm list -g request`.
+* Check the permissions and ownership of the global npm modules directory. Ensure that it is accessible to the user running the script.
+* Double-check the `NODE_PATH` environment variable to make sure it includes the directory where global npm modules are installed.
+* If the script is intended to be run in a specific project directory, consider installing the `'request'` module locally within that project using **`npm install request`**.
+
+After taking these steps, try running the script again to see if the issue is resolved.
 
 
 
