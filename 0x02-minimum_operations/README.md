@@ -7,7 +7,7 @@ For this project, you will need to understand several key algorithmic and mathem
     * [Dynamic Programming (GeeksforGeeks)](https://www.geeksforgeeks.org/dynamic-programming/)
 
 2. **Prime Factorization:**
-    * Understanding how to perform prime factorization is crucial since the problem can be reduced to finding the sum of the prime factors of the target number n.
+    * Understanding how to perform prime factorization is crucial since the problem can be reduced to finding the sum of the prime factors of the target number `n`.
     * [Prime Factorization (Khan Academy)](https://www.khanacademy.org/math/pre-algebra/pre-algebra-factors-multiples/pre-algebra-prime-factorization-prealg/v/prime-factorization)
 
 3. **Code Optimization:**
