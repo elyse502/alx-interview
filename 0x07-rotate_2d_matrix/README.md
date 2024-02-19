@@ -32,6 +32,7 @@ By understanding these concepts and utilizing the provided resources, you will b
 # Additional Resources 🏣
 * [Mock Technical Interview](https://www.youtube.com/watch?v=yM9Xbi-MigE)
 
+
 # Requirements 🏛️
 <b>General ⛩️</b>
 * Allowed editors: `vi`, `vim`, `emacs`
