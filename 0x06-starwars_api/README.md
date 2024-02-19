@@ -27,7 +27,7 @@ The `“0. Star Wars Characters”` project requires you to interact with an ext
 By familiarizing yourself with these concepts and resources, you will be able to efficiently retrieve, process, and display Star Wars characters from the specified movie using the Star Wars API, demonstrating your ability to work with external APIs and manage asynchronous code in JavaScript.
 
 # Additional Resources 🧰
-[Mock Technical Interview](https://www.youtube.com/watch?v=bmqZ5AhNr3g)
+* [Mock Technical Interview](https://www.youtube.com/watch?v=bmqZ5AhNr3g)
 
 
 # Requirements 🏛️
