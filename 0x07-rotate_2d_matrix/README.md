@@ -99,10 +99,10 @@ def rotate_2d_matrix(matrix):
     rows = len(matrix)
     cols = len(matrix[0])
     matrix.reverse()
-    # create matrix
+    # Create Matrix
     for i in range(rows):
         for j in range(i, cols):
-            # Assign matrix element to the transposed position
+            # Assign Matrix element to the transposed position
             matrix[i][j], matrix[j][i] = matrix[j][i], matrix[i][j]
 ```
 
