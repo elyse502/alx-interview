@@ -75,7 +75,7 @@ jessevhedden$ ./main_0.py
 jessevhedden$
 ```
 
-<div align="center>
+<div align="center">
 
 # Reference 📚
 
