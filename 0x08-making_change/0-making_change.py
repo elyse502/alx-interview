@@ -13,17 +13,29 @@ def makeChange(coins, total):
     """
     if total <= 0:
         return 0
-    # Initialize list with maximum amount(which cannot be reached)
-    # This helps to calculate a new minimum
-    # E.G: If total = 2, list = [3,3,3]
-    dp = [total + 1] * (total + 1)
-    # Set minimum number of coins for amount 0
-    dp[0] = 0
+    if coins == [] or coins is None:
+        return -1
+    try:
+        n = coins.index(total)
+        return 1
+    except ValueError:
+        pass
 
-    # Start from 1 because we know dp[0]
-    for amount in range(1, total + 1):
-        # test for every coin
-        for coin in coins:
-            if amount - coin >= 0:
-                dp[amount] = min(dp[amount], 1 + dp[amount - coin])
-    return dp[total] if dp[total] != total + 1 else -1
+    coins.sort(reverse=True)
+    coin_count = 0
+    for i in coins:
+        if total % i == 0:
+            coin_count += int(total / i)
+            return coin_count
+        if total - i >= 0:
+            if int(total / i) > 1:
+                coin_count += int(total / i)
+                total = total % i
+            else:
+                coin_count += 1
+                total -= i
+                if total == 0:
+                    break
+    if total > 0:
+        return -1
+    return coin_count
