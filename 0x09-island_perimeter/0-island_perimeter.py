@@ -21,7 +21,7 @@ def island_perimeter(grid):
         return 0
 
     def dfs(i, j):
-        """depth first search"""
+        """ depth first search """
         if (i, j) in visited:
             return 0
         if i >= len(grid) or\
@@ -38,7 +38,7 @@ def island_perimeter(grid):
 
     for i in range(len(grid)):
         for j in range(len(grid[0])):
-            # do a dfs for only land
+            # Do a dfs for only land
             if grid[i][j]:
                 return dfs(i, j)
     return 0
